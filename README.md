@@ -8,9 +8,13 @@ The panorama stitching algorithm can be divided into four basic fundamental step
 - Merge them into a descriptor vector -> homographic matrix
 3) Calculating the homography matrix using the RANSAC algorithm.
 - Homography matrix is a 3x3 matrix that illustrates the same local feature
+  
   |a11  a12  a13| -> horizontal transform, scalling, rotation
+  
   |b11  b12  b13| -> vertical transform, scalling, rotation
+  
   |c11  c12  c13| -> Perspective transform -> RANSAC algoritm
+  
 4) The homography matrix is then applied to the image to wrap and fit those images and merge them into one.
 
   In case of stitching only 2 images together to create a panorama, we didn’t face any difficulty
