@@ -1,4 +1,5 @@
-# Image-stitching-from-scratch-and-OpenCV
+# Image stitching from scratch and OpenCV
+
 The panorama stitching algorithm can be divided into four basic fundamental steps. These steps are as follows:
 
 1) Detection of keypoints (points on the image) and extraction of local invariant descriptors (SIFT feature) from input images.
@@ -22,4 +23,5 @@ and it was a straight forward process. But in case of stitching many images toge
 that as we stitch more and more images, images near to the side starts getting distorted
 => Cylindrical Projection and Unroll involves the projection of the images onto a cylinder, unrolling them,
 and then stitching them together.
+
 ![image](https://github.com/nttrung2406/Multiimage-stitching-from-scratch-and-OpenCV/assets/105348335/970abe0c-ea4c-44de-a9a8-30d6b68068b6)
